@@ -2,5 +2,6 @@ DROP TABLE IF EXISTS dbo.Customer
 GO
 CREATE TABLE dbo.Customer(
     CustomerID INT NOT NULL PRIMARY KEY,
-    CustomerName VARCHAR(20) NOT NULL
+    CustomerName VARCHAR(20) NOT NULL,
+    Address VARCHAR(100) NOT NULL
 )
