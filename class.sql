@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS dbo.Class
+GO
+CREATE TABLE dbo.Class(
+    ClassID INT NOT NULL PRIMARY KEY,
+    ClassName VARCHAR(100) NOT NULL
+)
