@@ -3,5 +3,6 @@ GO
 CREATE TABLE dbo.Customer(
     CustomerID INT NOT NULL PRIMARY KEY,
     CustomerName VARCHAR(20) NOT NULL,
-    Address VARCHAR(100) NOT NULL
+    Address VARCHAR(100) NOT NULL,
+    PhoneNumber VARCHAR(15) NOT NULL
 )
